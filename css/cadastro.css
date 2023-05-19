@@ -1,0 +1,177 @@
+body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background-image: linear-gradient(90deg, blue, cyan);
+}
+
+/* header {
+    text-align: center;
+    padding: 8px;
+    height: 75px;
+} */
+
+img {
+    display: block;
+    float: right;
+    margin-right: -152px;
+    border-radius: 5px;
+    box-shadow: 20px 20px 50px rgb(4, 166, 241);
+}
+
+.checkbox label {
+    margin: 0px;
+    position: relative;
+    top: -20px;
+    left: 25px;
+
+}
+
+.checkbox {
+    display: inline-block;
+    margin: 0 auto;
+    margin-left: 155px;
+    margin-top: -15px;
+}
+
+.checkbox input {
+
+    margin: 0px;
+    width: 20px;
+    height: 20px;
+
+}
+
+label {
+    position: relative;
+    left: 15px;
+    margin-bottom: 70px;
+    width: 0%;
+
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 125px;
+}
+
+.row2 select {
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 145px; */
+    position: relative;
+    left: 365px;
+    top: -173px;
+}
+
+#idade {
+    position: relative;
+    left: 75px;
+}
+
+#regime {
+    position: relative;
+    left: 75%;
+    top: -205px;
+}
+
+#number {
+    width: 50px;
+    position: relative;
+    left: 60px;
+}
+
+select {
+    margin: 25px;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+
+
+}
+
+h1 {
+    text-align: center;
+    font-family: papyrus;
+    color: white;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+form {
+
+    background-color: rgba(217, 219, 255 0.1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    box-shadow: 1px 0px 3px 1px white;
+    bottom: -155px;
+}
+
+input {
+    display: block;
+    width: 215px;
+    padding: 10px;
+    text-align: center;
+    outline: none;
+    border: 25px;
+    border-radius: 5px;
+    margin: 16px;
+}
+
+input[type="text"] {
+    color: rgb(6, 30, 110);
+    font-family: papyrus;
+
+}
+
+input[type="password"] {
+    color: rgb(6, 30, 110);
+    font-family: papyrus;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    /* margin-top: 25px; */
+    /* margin-bottom: 22px; */
+    position: relative;
+    top: -158px;
+    left: 45px;
+    border: none;
+    border-radius: 15px;
+    width: 50%;
+    background: #174dff;
+    margin-left: 145px;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    box-shadow: 2px 1px 2px 1px white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: white;
+    background-color: rgb(21, 214, 214);
+}
+
+a {
+    text-decoration: none;
+    color: antiquewhite;
+    margin-top: 10px;
+    font-size: 12px;
+    margin-left: 78px;
+
+}

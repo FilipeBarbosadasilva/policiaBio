@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/cadastro.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,800;1,700&display=swap" rel="stylesheet">
+    <title>cadastro - Policia bio</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h1>Ficha Criminal</h1>
+    <form name="cadastro" action="" method="post">
+        <div class="row">
+            <label for="Nome">Nome:</label>
+            <input type="text" name="" id="" value="Lázaro Barbosa de Sousa" required placeholder="Nome..." />
+            <label for="Apelido">Apelido:</label>
+            <input type="text" name="" id="" value="Lazarento" required placeholder="Apelido">
+        </div>
+        <img src="./img/lazaro-barbosa-serial-killer.jpeg" alt="Girl in a jacket" width="150" height="190">
+        <div class="checkbox">
+            <input type="checkbox" id="sexo" name="sexo" value="aceito">
+            <label for="sexo">Masculino</label>
+        </div>
+            <div class="checkbox">
+                <input type="checkbox" id="sexo" name="sexo" value="aceito">
+                <label for="sexo">Feminino</label>
+        </div>
+        <div class="row">
+            <label for="Filiação">Filiação:</label>
+            <input type="text" name="mae" id="mae" value="Eva Maria de Sousa"  required placeholder="MÂE">
+            <input type="text" name="pai" id="pai" value=" Edenaldo Barbosa Magalhães"  required placeholder="PAI">
+        </div>
+        <div class="row">
+            <label for="RG">RG:</label>
+            <input type="text" name="" id="" value="8.222.257" required placeholder="RG">
+            <label for="CPF">CPF:</label>
+            <input type="text" name="cpf" value="089.456.321-02" \ pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" \
+                title="Digite um CPF no formato: xxx.xxx.xxx-xx" placeholder="CPF">
+        </div>
+        <div class="row1">
+            <label for="RG">Nascimeto:</label>
+            <input type="date" name="" id="" required placeholder="RG">
+
+            <label for="">Pena:</label>
+            <select name="" id="">
+                <option value="">Homicidio</option>
+                <option value="foragido">Foragido</option>
+              
+            </select>
+        </div>
+        <div class="row2">
+            <label id="idade" for="number">Idade:</label>
+            <input id="number" type="number" name="" id="">
+            <label id="regime" for="">Regime:</label>
+            <select name="" id="">
+                <option value="">Semi aberto.</option>
+                <option value="">Regime fechado.</option>
+            </select>
+        </div>
+    </div>
+    <input type="submit" value="cadastro">
+   
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,800;1,700&display=swap" rel="stylesheet">
+    <title>Login - Policia bio</title>
+</head>
+
+<body>
+    <div class="center">
+       
+        <form method="get"  onsubmit="return validarDados()? true : false">
+                <h1>Policia-Bio</h1>
+                <input type="text" name="Email" id="Email" placeholder="E-mail..." required>
+                
+                <input type="password" name="senha" id="senha" placeholder="Password..." required>
+                
+                <a href="index.html">
+                    
+                    <input type="button" value="Entrar" onclick="validarDados('./cadastro')">
+                </a>
+                
+				<a href="">POWER-BY</a>
+            </form>
+            <script type="text/javascript">
+				function validarDados() {
+					var Email = document.getElementById("Email").value;
+					var senha = document.getElementById("senha").value;
+
+					if (Email == '') {
+						alert('Informe o Email')
+						return false;
+					}
+					if (senha == '') {
+						alert('Informe o senha')
+						return false;
+
+					}
+					return true;
+				}
+
+
+			</script>
+    </div>
+</body>
+
+</html>

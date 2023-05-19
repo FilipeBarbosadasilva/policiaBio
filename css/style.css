@@ -1,0 +1,78 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-image: linear-gradient(90deg, blue, cyan);
+}
+
+header {
+  text-align: center;
+  padding: 8px;
+  height: 75px;
+}
+
+h1 {
+  text-align: center;
+  font-family: papyrus;
+}
+
+form {
+  background-color: rgba(217, 219, 255 0.1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px;
+  border-radius: 15px;
+  color: white;
+  box-shadow: 1px 0px 3px 1px white;
+}
+
+input {
+  display: block;
+  width: 215px;
+  padding: 10px;
+  text-align: center;
+  outline: none;
+  border: 25px;
+  border-radius: 5px;
+  margin-top: 22px;
+}
+
+input[type="text"] {
+  color: rgb(6, 30, 110);
+  font-family: papyrus;
+
+}
+
+input[type="password"] {
+  color: rgb(6, 30, 110);
+  font-family: papyrus;
+}
+
+input[type="button"] {
+  padding: 10px;
+  margin-bottom: 22px;
+  border: none;
+  border-radius: 15px;
+  width: 70%;
+  background: #174dff;
+  margin-left: 35px;
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  box-shadow: 2px 1px 2px 1px white;
+}
+
+input[type="button"]:hover {
+  background-color: white;
+  background-color: cyan;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: antiquewhite;
+  margin-top: 10px;
+  font-size: 12px;
+  margin-left: 78px;
+}
